@@ -27,7 +27,7 @@
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':@1ziton_react-native-carpture'
-project(':@1ziton_react-native-carpture').projectDir = new File(rootProject.projectDir, 	'../node_modules/@1ziton/react-native-carpture/android')
+    project(':@1ziton_react-native-carpture').projectDir = new File(rootProject.projectDir, 	'../node_modules/@1ziton/react-native-carpture/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
