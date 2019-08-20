@@ -1,7 +1,7 @@
 
 {
   "name": "@1ziton/react-native-carpture",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "二维码识别",
   "main": "index.js",
   "scripts": {
