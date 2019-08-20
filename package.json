@@ -1,14 +1,14 @@
 
 {
-  "name": "@1ziton/react-native-carpture",
-  "version": "1.0.1",
-  "description": "二维码识别",
-  "main": "index.js",
+  "name": "@1ziton/react-native-carptures",
+  "version": "1.0.4",
+  "description": "二维码识别条形码识别",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native", "二维码识别"
+    "react-native", "二维码识别条形码识别"
   ],
   "author": "",
   "license": "",

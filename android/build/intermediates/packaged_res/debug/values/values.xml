@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="viewfinder_corner">#3b7708</color>
+    <color name="viewfinder_frame">#3b7708</color>
+    <color name="viewfinder_laser">#3b7708</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_result_point_color">#C0FFBD21</color>
+    <color name="viewfinder_text_color">#FFC0C0C0</color>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <declare-styleable name="ViewfinderView">
+        <attr format="color" name="maskColor"/>
+        <attr format="color" name="frameColor"/>
+        <attr format="color" name="cornerColor"/>
+        <attr format="color" name="laserColor"/>
+        <attr format="color" name="resultPointColor"/>
+        <attr format="string" name="labelText"/>
+        <attr format="color" name="labelTextColor"/>
+        <attr format="dimension" name="labelTextSize"/>
+        <attr format="dimension" name="labelTextPadding"/>
+        <attr format="enum" name="labelTextLocation">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+        <attr format="boolean" name="showResultPoint"/>
+        <attr format="dimension" name="frameWidth"/>
+        <attr format="dimension" name="frameHeight"/>
+        <attr format="integer" name="gridColumn"/>
+        <attr format="dimension" name="gridHeight"/>
+        <attr format="enum" name="laserStyle">
+            <enum name="none" value="0"/>
+            <enum name="line" value="1"/>
+            <enum name="grid" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
